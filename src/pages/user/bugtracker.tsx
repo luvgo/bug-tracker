@@ -1,18 +1,21 @@
 import Head from "next/head";
-import Navbar from "../../components/Navbar";
+import Navbar from "../../../components/Navbar";
+import { SideBar } from "../../../components/Navbar";
+import { MdNotificationsNone } from "react-icons/md";
 
-export default function BugReport() {
+export default function BugTracker() {
   return (
     <>
       <Head>
         <title>bug-tracker</title>
         <meta name="description" content="bug-tracker" />
       </Head>
-      <main className="min-h-screen bg-slate-700 font-sans">
+      <main className="h-full w-full bg-slate-700 font-sans">
         <Navbar />
-        <div className="text-gray-900">
-          <div className="flex justify-center px-3 py-4">
-            <table className="text-md mb-4 w-full rounded bg-white shadow-md">
+        <div className="flex text-gray-900">
+          <SideBar />
+          <div className="mx-auto p-4">
+            <table className="text-md min-w-screen mb-4 rounded bg-white shadow-md">
               <tbody>
                 <tr className="border-b">
                   <th className="p-3 px-5 text-left">Name</th>

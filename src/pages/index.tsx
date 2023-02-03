@@ -62,7 +62,7 @@ const Home: NextPage = () => (
 
         <div className="flex items-center justify-center bg-gray-50 py-4 text-center dark:bg-gray-700">
           <span className="text-sm text-gray-600 dark:text-gray-200">
-            Don't have an account?{" "}
+            Do not have an account?{" "}
           </span>
 
           {/* rome-ignore lint/a11y/useValidAnchor: <explanation> */}
