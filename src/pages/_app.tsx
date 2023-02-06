@@ -2,6 +2,7 @@ import { type AppType } from "next/dist/shared/lib/utils";
 import Navbar from "../../components/Navbar";
 
 import "../styles/globals.css";
+import { trpc } from "../utils/trpc";
 
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
@@ -12,4 +13,4 @@ const MyApp: AppType = ({ Component, pageProps }) => {
   );
 };
 
-export default MyApp;
+export default trpc.withTRPC(MyApp);
