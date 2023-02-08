@@ -1,11 +1,11 @@
 import { type AppType } from "next/app";
 import { type Session } from "next-auth";
 import { SessionProvider } from "next-auth/react";
-import Navbar from "../../";
+import Navbar from "../../components/Navbar";
 
 import { api } from "../utils/api";
 
-import "../styles/globals.css";
+import "../styles/global.css";
 
 const MyApp: AppType<{ session: Session | null }> = ({
   Component,

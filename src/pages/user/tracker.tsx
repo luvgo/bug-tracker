@@ -55,7 +55,7 @@ const Row = (props: rowProps) => {
   );
 };
 
-const BugTracker = () => {
+const Tracker = () => {
   return (
     <>
       <Head>
@@ -93,4 +93,4 @@ const BugTracker = () => {
   );
 };
 
-export default BugTracker;
+export default Tracker;
