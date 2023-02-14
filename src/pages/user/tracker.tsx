@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Navbar from "../../../components/Navbar";
 
 type rowProps = {
   title: string;
@@ -10,7 +9,7 @@ type rowProps = {
   comments: string;
 };
 
-const Row = (props: rowProps) => {
+export const Row = (props: rowProps) => {
   return (
     <tr className="border-b bg-gray-100 hover:bg-orange-100">
       <td className="p-3 px-5">
@@ -81,7 +80,7 @@ const Tracker = () => {
                   priority="URGENT"
                   status="OPEN"
                   assignee="Juan"
-                  timeAdded="2-3-2023"
+                  timeAdded="2-8-2023"
                   comments="comments"
                 />
               </tbody>
