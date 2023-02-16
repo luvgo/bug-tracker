@@ -5,7 +5,7 @@ type rowProps = {
   priority: string;
   status: string;
   assignee: string;
-  timeAdded: string;
+  timeAdded: number;
   comments: string;
 };
 
@@ -80,7 +80,7 @@ const Tracker = () => {
                   priority="URGENT"
                   status="OPEN"
                   assignee="Juan"
-                  timeAdded="2-8-2023"
+                  timeAdded={Date.now()}
                   comments="comments"
                 />
               </tbody>
