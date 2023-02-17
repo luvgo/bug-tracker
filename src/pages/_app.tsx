@@ -1,7 +1,7 @@
 import { type AppType } from "next/app";
 import { type Session } from "next-auth";
 import { SessionProvider } from "next-auth/react";
-import Navbar from "../../components/Navbar";
+import Navbar from "./components/Navbar";
 import { useRouter } from "next/router";
 import { api } from "../utils/api";
 
