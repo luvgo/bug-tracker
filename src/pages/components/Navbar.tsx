@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { VscAccount } from "react-icons/vsc";
 import { MdNotificationsNone, MdDarkMode } from "react-icons/md";
-import SubmitForm from "../src/pages/user/[form]";
+import SubmitForm from "../user/form"
 
 const Navbar = () => {
   return (
